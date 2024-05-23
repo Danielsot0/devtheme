@@ -1,0 +1,28 @@
+{
+  "name": "devtheme",
+  "displayName": "DevTheme",
+  "description": "Theme Based on Nordic Coloristic - Fork",
+  "publisher": "Your Publisher Id",
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Dark",
+    "Editor Theme"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dev Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev Theme-color-theme.json"
+      }
+    ]
+  }
+}
